@@ -1,0 +1,5 @@
+<a title="Photo taken by <%= @user.full_name %>" 
+   href="<%= @link %>" target="_blank">
+  <img alt="Photo taken by <%= @user.full_name %>" 
+       src="<%= @images.low_resolution.url %>">
+</a>

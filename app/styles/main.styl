@@ -1,0 +1,61 @@
+@import 'nib'
+
+global-reset()
+
+@import 'grid'
+@import 'slideshow'
+
+// Apply a natural box layout model to all elements.
+// http://paulirish.com/2012/box-sizing-border-box-ftw/
+*
+  box-sizing border-box
+
+$fontsize = 19px
+$lineheight = 26px
+
+$purple = #5A308D
+
+body
+  color #111
+  background $purple
+  font-smoothing antialiased
+  -webkit-font-smoothing antialiased
+
+body
+input
+select
+textarea
+button
+  font-family "proxima-nova", sans-serif
+
+a
+a:hover
+a:active
+a:visited
+  color #000
+
+  
+// === TYPOGRAPHY ===
+
+$leadmargin = 0.5
+
+h1
+  font-size $fontsize * 2
+  margin-bottom @font-size * $leadmargin
+
+h2
+  font-size $fontsize * 1.5
+  margin-bottom @font-size * $leadmargin
+
+h3
+  font-size $fontsize * 1.3
+  margin-bottom @font-size * $leadmargin
+
+h4, p
+  font-size $fontsize * 1
+  margin-bottom @font-size * $leadmargin
+  line-height $lineheight * 1
+
+h5
+  font-size $fontsize * 0.8
+  margin-bottom @font-size * $leadmargin
