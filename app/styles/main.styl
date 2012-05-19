@@ -26,7 +26,13 @@ input
 select
 textarea
 button
-  font-family "proxima-nova", sans-serif
+  font-family "proxima-nova", sans-serif // available in 300 400 700 weights
+
+strong
+  font-weight 700
+
+em
+  font-weight 300
 
 links(normal, hover, active)
   a
@@ -39,6 +45,7 @@ links(normal, hover, active)
 links(white, lighten($purple, 80%), lighten($purple, 90%))
 a
   text-decoration none
+  font-weight 300
 
 .btn
 button
@@ -74,11 +81,32 @@ section
     typosize(1.4)
   h4
     typosize(1)
-    font-weight bold
-  h5, p, li
+    font-weight 700
+  h5, p, li, td
     typosize(1)
   h6
-    typosize(0.8)
+    typosize(1)
+    font-weight 300
+
+table.menu
+  width 100%
+  margin 20px 0
+  td[align=right]
+    text-align right
+    width 0
+    white-space nowrap
+  td[align=left]
+    width 100%
+  td
+    font-family "adobe-jenson-pro", times, serif
+    typosize(1.2)
+  td[align=left]
+    background url("/images/leader.png") left ($fontsize - 2) repeat-x
+    padding-right 0.33em
+    span
+      background white
+      padding-right 0.33em
+  
 
 header
   position relative
@@ -98,6 +126,13 @@ header
     .btn
       font-weight bold
 
+hr.seperator
+  margin 6px auto
+  height 7px
+  width 250px
+  border 0
+  background url("/images/seperator.png") no-repeat
+
 .clear
   clearfix()
 
@@ -111,9 +146,10 @@ header
   margin 0 30px 0 0
   .inner
     border-radius 20px
-    background lighten($purple, 20%)
+    background rgba(0,0,0,0.2)
     padding 30px
     .page
+      border-radius 2px
       background white
       color #111
       links(#000, #111, #222)
@@ -158,13 +194,24 @@ header
     p.strong
       font-weight 700
       font-size 13px
-    hr
-      margin 6px auto
-      height 7px
-      width 250px
-      border 0
-      background url("/images/seperator.png") no-repeat
+  .ideo
+    margin 20px 0
+    
+  .features
+    margin 20px 0
+    text-align center
+    ul
+      margin 40px 0
+      li
+        font-weight bold
+        line-height 25px
 
+.photos img
+img.photo
+  background white
+  box-shadow 0 0 1px 3px white, 0 0 1px 4px #CCC
+  display block
+  margin-bottom $fontsize
 
 
 section#instagram
@@ -195,7 +242,10 @@ section#instagram
       img
         max-width 100%
 
-
+footer
+  p
+    text-align center
+    font-weight 300
 
 
 

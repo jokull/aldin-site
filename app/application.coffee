@@ -19,7 +19,7 @@ class InstagramView extends Backbone.View
   
   all: =>
     ($ @el).html ""
-    @add for model in @collection.models
+    @add(model) for model in @collection.models
 
 
 class Aldin
@@ -39,7 +39,7 @@ class Aldin
       url: "https://api.instagram.com/v1/locations/#{venue}/media/recent?client_id=#{client}"
       dataType: "jsonp"
       success: (data, status) =>
-        @collections.instagram.add data.data
+        @collections.instagram.reset data.data
       
   initialize: (options) ->
     $ =>
