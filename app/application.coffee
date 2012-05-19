@@ -1,6 +1,7 @@
 
 class Photo extends Backbone.View
   template: (require 'templates/photo')
+  className: "post"
   render: =>
     ($ @el).html @template(@model.toJSON())
     return this

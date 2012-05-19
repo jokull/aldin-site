@@ -2,24 +2,24 @@
 
 global-reset()
 
-@import 'grid'
 @import 'slideshow'
 
 // Apply a natural box layout model to all elements.
 // http://paulirish.com/2012/box-sizing-border-box-ftw/
 *
-  box-sizing border-box
+  vendor('box-sizing', border-box)
 
-$fontsize = 19px
-$lineheight = 26px
+$purple = #391652
+$dark = #2E1144
 
-$purple = #5A308D
+html
+body
+  min-height 100%
 
 body
-  color #111
-  background $purple
-  font-smoothing antialiased
-  -webkit-font-smoothing antialiased
+  color white
+  background linear-gradient(top, darken($purple, 15%), lighten($purple, 5%) 600px)
+  ventor('font-smoothing', antialiased)
 
 body
 input
@@ -28,34 +28,203 @@ textarea
 button
   font-family "proxima-nova", sans-serif
 
+links(normal, hover, active)
+  a
+    color normal
+    &:hover
+      color hover
+    &:active
+      color active
+
+links(white, lighten($purple, 80%), lighten($purple, 90%))
 a
-a:hover
-a:active
-a:visited
-  color #000
+  text-decoration none
 
+.btn
+button
+input[type=submit]
+  color white
+  text-transform uppercase
+  text-decoration none
+  text-shadow 0 2px 1px rgba(0,0,0,.3)
+  background linear-gradient(top, lighten($purple, 30%) 20%, lighten($purple, 10%) 100%), $purple
+  box-shadow 0 -1px 1px lighten($purple, 60%), 0 2px 4px rgba(0,0,0,.3)
+  border-radius 9px
+  padding 10px 26px
+  transition 300ms all ease
+  &:hover
+    color white
+
+$fontsize = 15px
+$lineheight = 20px
+
+typosize(multiplier=1)
+  font-size $fontsize * multiplier
+  line-height $lineheight * multiplier
+  margin-bottom $lineheight
+
+section
+  h1
+    typosize(4)
+  h2
+    font-weight 700
+    typosize(1.4)
+  h3
+    font-weight 400
+    typosize(1.4)
+  h4
+    typosize(1)
+    font-weight bold
+  h5, p, li
+    typosize(1)
+  h6
+    typosize(0.8)
+
+header
+  position relative
+  text-align center
+  padding 28px 0
+  h1
+    margin-bottom 20px
+  h2
+    text-shadow 0 1px 0 rgba(0,0,0,0.3)
+    text-transform uppercase
+    font-weight 400
+    font-size 14pt
+  .language-picker
+    position absolute
+    bottom 30px
+    right 22px
+    .btn
+      font-weight bold
+
+.clear
+  clearfix()
+
+.outer
+  margin 30px auto
+  width 1130px
   
-// === TYPOGRAPHY ===
+#poster
+  float left
+  width 880px
+  margin 0 30px 0 0
+  .inner
+    border-radius 20px
+    background lighten($purple, 20%)
+    padding 30px
+    .page
+      background white
+      color #111
+      links(#000, #111, #222)
+      a
+        text-decoration underline
+      padding 30px 10px
+  
+  h2
+  h3
+  h4
+  li
+    margin 0
+  
+  .address
+    text-align right
+    p.strong
+      font-weight bold
+    p
+      margin 0
+    hr
+      border 0
+      width 100px
+      margin 6px 0 6px auto
+      height 1px
+      background #CCC
+      text-align right
+    img
+      margin 12px 0
+  
+  .coffee
+    margin 40px 0 20px
+    text-align center
+    p
+      margin 0 60px
+    img.takeout
+      margin-top -63px
+    img.loyalty
+      margin 10px 0
+    ul
+      margin 10px 0
+    li
+    p.strong
+      font-weight 700
+      font-size 13px
+    hr
+      margin 6px auto
+      height 7px
+      width 250px
+      border 0
+      background url("/images/seperator.png") no-repeat
 
-$leadmargin = 0.5
 
-h1
-  font-size $fontsize * 2
-  margin-bottom @font-size * $leadmargin
 
-h2
-  font-size $fontsize * 1.5
-  margin-bottom @font-size * $leadmargin
+section#instagram
+  float left
+  margin-top 250px
+  width 1130px - 880 - 30
+  > img
+    float left
+    display block
+    margin 0 $fontsize $fontsize 0
+  h3
+    font-size 15pt
+    line-height @font-size * 1.2
+    font-weight 700
+    margin 0
+  h5
+    font-size 10pt
+    line-height @font-size * 1.5
+    font-weight 400
+    margin 0 0 20px 0
+  .photos
+    transition 400ms opacity ease-out
+    opacity 0.5
+    &:hover
+      opacity 1
+    .post
+      margin 0 0 10px
+      img
+        max-width 100%
 
-h3
-  font-size $fontsize * 1.3
-  margin-bottom @font-size * $leadmargin
 
-h4, p
-  font-size $fontsize * 1
-  margin-bottom @font-size * $leadmargin
-  line-height $lineheight * 1
 
-h5
-  font-size $fontsize * 0.8
-  margin-bottom @font-size * $leadmargin
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
