@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2012-05-15 18:20+0000\n"
+"POT-Creation-Date: 2012-05-20 12:58+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,7 +17,215 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 0.9.6\n"
 
-#: app/assets/hi.html:4
-msgid "Hi"
+#: app/assets/index.html:49
+msgid "Frontpage"
+msgstr ""
+
+#: app/assets/index.html:50
+msgid "Breakfast - Coffee - Lunch - Dinner"
+msgstr ""
+
+#: app/assets/index.html:67
+msgid "Breakfast"
+msgstr ""
+
+#: app/assets/index.html:68
+msgid "Served from 8:00 to 11:00 all days"
+msgstr ""
+
+#: app/assets/index.html:74
+msgid "Icelandic Skyr with coconut milk and fruit"
+msgstr ""
+
+#: app/assets/index.html:78
+msgid "Avocado yoghurt with almonds and berries"
+msgstr ""
+
+#: app/assets/index.html:82
+msgid "Soft boiled egg, bacon and sourdough bread"
+msgstr ""
+
+#: app/assets/index.html:86
+msgid "Fruit compote, granola and yoghurt"
+msgstr ""
+
+#: app/assets/index.html:90
+msgid "Porridge with natural honey"
+msgstr ""
+
+#: app/assets/index.html:94
+msgid "Bread with jams and our own cheese spread"
+msgstr ""
+
+#: app/assets/index.html:98 app/assets/index.html:176
+msgid "Croissant"
+msgstr ""
+
+#: app/assets/index.html:102
+msgid "Soft boiled egg"
+msgstr ""
+
+#: app/assets/index.html:107
+msgid "Lunch & Dinner"
+msgstr ""
+
+#: app/assets/index.html:108
+msgid "Salad selection, meat and local fish from 11:00 to 21:00"
+msgstr ""
+
+#: app/assets/index.html:114
+msgid "3 salads"
+msgstr ""
+
+#: app/assets/index.html:118
+msgid "4 salads"
+msgstr ""
+
+#: app/assets/index.html:122
+msgid "2 salads + meat or fish"
+msgstr ""
+
+#: app/assets/index.html:126
+msgid "3 salads + meat or fish"
+msgstr ""
+
+#: app/assets/index.html:130
+msgid "Sourdough bread"
+msgstr ""
+
+#: app/assets/index.html:137
+msgid ""
+"An award winning tea produces. Many varieties. Always from whole leaf, no"
+" dust."
+msgstr ""
+
+#: app/assets/index.html:143
+#, python-format
+msgid "10% student discount"
+msgstr ""
+
+#: app/assets/index.html:144
+msgid "Roomy loft with couches and electric plugs"
+msgstr ""
+
+#: app/assets/index.html:145
+msgid "Outside seating when weather allows"
+msgstr ""
+
+#: app/assets/index.html:146
+msgid "Organic wines at a fair price"
+msgstr ""
+
+#: app/assets/index.html:147
+msgid "Historic setting by Lækjartorg"
+msgstr ""
+
+#: app/assets/index.html:162
+msgid "Open 8 am to 9 pm every day"
+msgstr ""
+
+#: app/assets/index.html:170
+msgid "Coffee & Tea"
+msgstr ""
+
+#: app/assets/index.html:171
+msgid "We make great italian style coffee. All drinks are double shot."
+msgstr ""
+
+#: app/assets/index.html:173
+msgid "Americano, espresso, tea"
+msgstr ""
+
+#: app/assets/index.html:174
+msgid "Cappuccino, flat white"
+msgstr ""
+
+#: app/assets/index.html:175
+msgid "French press"
+msgstr ""
+
+#: app/assets/index.html:178 app/assets/index.html:179
+msgid "Loyalty cards"
+msgstr ""
+
+#: app/assets/index.html:179
+msgid "10th cup is <strong>free</strong>"
+msgstr ""
+
+#: app/assets/index.html:184
+msgid "Real food without compromise"
+msgstr ""
+
+#: app/assets/index.html:185
+msgid ""
+"\n"
+"                  <p>We offer honest food, made from fresh ingredients. \n"
+"                  Our ideology does not carry strange names. We simply "
+"cook\n"
+"                  the food we wish to eat ourselves. Food that is "
+"nutritious, \n"
+"                  exciting, convenient and fairly priced.</p>\n"
+"                  \n"
+"                  <p>Our service is quick and professional. We import "
+"great tea,\n"
+"                  and have trained our staff to make the best cups of "
+"coffee in\n"
+"                  town. Our chef makes great pastry most days of the week"
+" and we\n"
+"                  are proud to display her delicate treats at the "
+"counter.</p>\n"
+"                  "
+msgstr ""
+
+#: app/assets/index.html:207
+msgid "Wines"
+msgstr ""
+
+#: app/assets/index.html:209
+msgid ""
+"Natural wines from Italy and France, picked by specialty importer Frú "
+"Lauga"
+msgstr ""
+
+#: app/assets/index.html:211
+msgid ""
+"Our house wines are unusually high quality. They are from the Valdibella "
+"coop in Sicily and organic certified."
+msgstr ""
+
+#: app/assets/index.html:219 app/assets/index.html:229
+#: app/assets/index.html:239
+msgid "Glass"
+msgstr ""
+
+#: app/assets/index.html:220 app/assets/index.html:221
+#: app/assets/index.html:230 app/assets/index.html:231
+#: app/assets/index.html:240 app/assets/index.html:241
+#: app/assets/index.html:283
+msgid "Bottle"
+msgstr ""
+
+#: app/assets/index.html:246
+msgid "and more at reasonable prices"
+msgstr ""
+
+#: app/assets/index.html:249
+msgid "In partnership with"
+msgstr ""
+
+#: app/assets/index.html:267
+msgid "More pics on our Facebook page"
+msgstr ""
+
+#: app/assets/index.html:284
+msgid "No reservations - Call for group reservations upstairs"
+msgstr ""
+
+#: app/assets/index.html:292
+msgid "Photos taken at our location"
+msgstr ""
+
+#: app/assets/index.html:294
+msgid "Fetching photos"
 msgstr ""
 
