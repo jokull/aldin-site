@@ -1,0 +1,3 @@
+pybabel compile -d translations
+jinjet
+rsync -varP --delete public/ web@wodboard.com:/web/aldin/

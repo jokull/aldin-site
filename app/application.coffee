@@ -36,7 +36,7 @@ class Aldin
     client = '884e7789f06e4b4988aa05b37fd7e77d'
     
     $.ajax
-      url: "https://api.instagram.com/v1/locations/#{venue}/media/recent?client_id=#{client}"
+      url: "https://api.instagram.com/v1/locations/#{venue}/media/recent?count=11&client_id=#{client}"
       dataType: "jsonp"
       success: (data, status) =>
         @collections.instagram.reset data.data

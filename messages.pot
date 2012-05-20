@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2012-05-20 14:26+0000\n"
+"POT-Creation-Date: 2012-05-20 15:23+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,146 +17,152 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 0.9.6\n"
 
-#: app/assets/index.html:49
+#: app/assets/index.html:8
+msgid ""
+"Salad picks, coffee and mediterranean cuisine in a beautiful historic "
+"house in downtown Reykjavík."
+msgstr ""
+
+#: app/assets/index.html:51
 msgid "Frontpage"
 msgstr ""
 
-#: app/assets/index.html:50
+#: app/assets/index.html:52
 msgid "Breakfast - Coffee - Lunch - Dinner"
 msgstr ""
 
-#: app/assets/index.html:67
+#: app/assets/index.html:69
 msgid "Breakfast"
 msgstr ""
 
-#: app/assets/index.html:68
+#: app/assets/index.html:70
 msgid "Served from 8:00 to 11:00 all days"
 msgstr ""
 
-#: app/assets/index.html:74
+#: app/assets/index.html:76
 msgid "Icelandic Skyr with coconut milk and fruit"
 msgstr ""
 
-#: app/assets/index.html:78
+#: app/assets/index.html:80
 msgid "Avocado yoghurt with almonds and berries"
 msgstr ""
 
-#: app/assets/index.html:82
+#: app/assets/index.html:84
 msgid "Soft boiled egg, bacon and sourdough bread"
 msgstr ""
 
-#: app/assets/index.html:86
+#: app/assets/index.html:88
 msgid "Fruit compote, granola and yoghurt"
 msgstr ""
 
-#: app/assets/index.html:90
+#: app/assets/index.html:92
 msgid "Porridge with natural honey"
 msgstr ""
 
-#: app/assets/index.html:94
+#: app/assets/index.html:96
 msgid "Bread with jams and our own cheese spread"
 msgstr ""
 
-#: app/assets/index.html:98 app/assets/index.html:176
+#: app/assets/index.html:100 app/assets/index.html:178
 msgid "Croissant"
 msgstr ""
 
-#: app/assets/index.html:102
+#: app/assets/index.html:104
 msgid "Soft boiled egg"
 msgstr ""
 
-#: app/assets/index.html:107
+#: app/assets/index.html:109
 msgid "Lunch & Dinner"
 msgstr ""
 
-#: app/assets/index.html:108
+#: app/assets/index.html:110
 msgid "Salad selection, meat and local fish from 11:00 to 21:00"
 msgstr ""
 
-#: app/assets/index.html:114
+#: app/assets/index.html:116
 msgid "3 salads"
 msgstr ""
 
-#: app/assets/index.html:118
+#: app/assets/index.html:120
 msgid "4 salads"
 msgstr ""
 
-#: app/assets/index.html:122
+#: app/assets/index.html:124
 msgid "2 salads + meat or fish"
 msgstr ""
 
-#: app/assets/index.html:126
+#: app/assets/index.html:128
 msgid "3 salads + meat or fish"
 msgstr ""
 
-#: app/assets/index.html:130
+#: app/assets/index.html:132
 msgid "Sourdough bread"
 msgstr ""
 
-#: app/assets/index.html:137
+#: app/assets/index.html:139
 msgid ""
 "An award winning tea produces. Many varieties. Always from whole leaf, no"
 " dust."
 msgstr ""
 
-#: app/assets/index.html:143
+#: app/assets/index.html:145
 #, python-format
 msgid "10%% student discount"
 msgstr ""
 
-#: app/assets/index.html:144
+#: app/assets/index.html:146
 msgid "Roomy loft with couches and electric plugs"
 msgstr ""
 
-#: app/assets/index.html:145
+#: app/assets/index.html:147
 msgid "Outside seating when weather allows"
 msgstr ""
 
-#: app/assets/index.html:146
+#: app/assets/index.html:148
 msgid "Organic wines at a fair price"
 msgstr ""
 
-#: app/assets/index.html:147
+#: app/assets/index.html:149
 msgid "Historic setting by Lækjartorg"
 msgstr ""
 
-#: app/assets/index.html:162
+#: app/assets/index.html:164 app/assets/index.html:286
 msgid "Open 8 am to 9 pm every day"
 msgstr ""
 
-#: app/assets/index.html:170
+#: app/assets/index.html:172
 msgid "Coffee & Tea"
 msgstr ""
 
-#: app/assets/index.html:171
+#: app/assets/index.html:173
 msgid "We make great italian style coffee. All drinks are double shot."
 msgstr ""
 
-#: app/assets/index.html:173
+#: app/assets/index.html:175
 msgid "Americano, espresso, tea"
 msgstr ""
 
-#: app/assets/index.html:174
+#: app/assets/index.html:176
 msgid "Cappuccino, flat white"
 msgstr ""
 
-#: app/assets/index.html:175
+#: app/assets/index.html:177
 msgid "French press"
 msgstr ""
 
-#: app/assets/index.html:178 app/assets/index.html:179
+#: app/assets/index.html:180 app/assets/index.html:181
 msgid "Loyalty cards"
 msgstr ""
 
-#: app/assets/index.html:179
+#: app/assets/index.html:181
 msgid "10th cup is <strong>free</strong>"
 msgstr ""
 
-#: app/assets/index.html:184
+#: app/assets/index.html:186
 msgid "Real food without compromise"
 msgstr ""
 
-#: app/assets/index.html:185
+#: app/assets/index.html:187
 msgid ""
 "\n"
 "                  <p>We offer honest food, made from fresh ingredients. \n"
@@ -177,55 +183,54 @@ msgid ""
 "                  "
 msgstr ""
 
-#: app/assets/index.html:207
+#: app/assets/index.html:209
 msgid "Wines"
 msgstr ""
 
-#: app/assets/index.html:209
+#: app/assets/index.html:211
 msgid ""
 "Natural wines from Italy and France, picked by specialty importer Frú "
 "Lauga"
 msgstr ""
 
-#: app/assets/index.html:211
+#: app/assets/index.html:213
 msgid ""
 "Our house wines are unusually high quality. They are from the Valdibella "
 "coop in Sicily and organic certified."
 msgstr ""
 
-#: app/assets/index.html:219 app/assets/index.html:229
-#: app/assets/index.html:239
+#: app/assets/index.html:221 app/assets/index.html:231
+#: app/assets/index.html:241
 msgid "Glass"
 msgstr ""
 
-#: app/assets/index.html:220 app/assets/index.html:221
-#: app/assets/index.html:230 app/assets/index.html:231
-#: app/assets/index.html:240 app/assets/index.html:241
-#: app/assets/index.html:283
+#: app/assets/index.html:222 app/assets/index.html:223
+#: app/assets/index.html:232 app/assets/index.html:233
+#: app/assets/index.html:242 app/assets/index.html:243
 msgid "Bottle"
 msgstr ""
 
-#: app/assets/index.html:246
+#: app/assets/index.html:248
 msgid "and more at reasonable prices"
 msgstr ""
 
-#: app/assets/index.html:249
+#: app/assets/index.html:251
 msgid "In partnership with"
 msgstr ""
 
-#: app/assets/index.html:267
+#: app/assets/index.html:269
 msgid "More pics on our Facebook page"
 msgstr ""
 
-#: app/assets/index.html:284
+#: app/assets/index.html:287
 msgid "No reservations - Call for group reservations upstairs"
 msgstr ""
 
-#: app/assets/index.html:292
+#: app/assets/index.html:299
 msgid "Photos taken at our location"
 msgstr ""
 
-#: app/assets/index.html:294
+#: app/assets/index.html:301
 msgid "Fetching photos"
 msgstr ""
 

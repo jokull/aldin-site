@@ -5,13 +5,15 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
   <title>Aldin Restaurant</title>
-  <meta name="description" content="">
+  <meta name="description" content="{{ _("Salad picks, coffee and mediterranean cuisine in a beautiful historic house in downtown Reykjavík.") }}">
   <meta name="author" content="">
   
-  <meta property="og:type" content="website">
-  <meta property="og:url" content="http://www.aldin.is/">
+  <meta property="og:title" content="Aldin Restaurant">
+  <meta property="og:type" content="restaurant">
+  <meta property="og:url" content="http://www.aldin.is">
+  <meta property="og:image" content="http://www.aldin.is/badge.png">
   <meta property="og:site_name" content="Aldin Restaurant">
-  <meta property="fb:admins" content="563494127">
+  <meta property="fb:admins" content="704142018">
   
   <link rel="stylesheet" href="/stylesheets/app.css">
   <link rel="shortcut icon" href="/favicon.ico">
@@ -67,8 +69,8 @@
                 <h2>{{ _("Breakfast") }}</h2>
                 <h6>{{ _("Served from 8:00 to 11:00 all days") }}</h6>
                 <table class="menu">
-                  <col align="left" />
-                  <col align="right" />
+                  <col align="left">
+                  <col align="right">
                   <tbody>
                   <tr>
                     <td align="left"><span>{{ _("Icelandic Skyr with coconut milk and fruit") }}</span></td>
@@ -107,8 +109,8 @@
                 <h2>{{ _("Lunch & Dinner") }}</h2>
                 <h6>{{ _("Salad selection, meat and local fish from 11:00 to 21:00") }}</h6>
                 <table class="menu">
-                  <col align="left" />
-                  <col align="right" />
+                  <col align="left">
+                  <col align="right">
                   <tbody>
                     <tr>
                       <td align="left"><span>{{ _("3 salads") }}</span></td>
@@ -279,9 +281,14 @@
         
       </div>
   
-      <footer>
-        <p class="strong">Aldin ehf. kt 4912091780 - <a href="&#x6d;&#x61;&#105;&#x6c;&#116;&#111;&#x3a;&#x61;&#x6c;&#x64;&#105;&#110;&#x40;&#x61;&#x6c;&#x64;&#105;&#x6e;&#x2e;&#105;&#115;">&#x61;&#x6c;&#100;&#105;&#x6e;&#64;&#x61;&#x6c;&#x64;&#x69;&#x6e;&#x2e;&#105;&#x73;</a> – {{ _("Open 8 am to 9 pm every day") }}</p>
-        <p><em>{{ _("No reservations - Call for group reservations upstairs") }}</em></p>
+      <footer class="container">
+        <div class="eight columns">
+          <p class="strong">Aldin ehf. kt 4912091780 - <a href="&#x6d;&#x61;&#105;&#x6c;&#116;&#111;&#x3a;&#x61;&#x6c;&#x64;&#105;&#110;&#x40;&#x61;&#x6c;&#x64;&#105;&#x6e;&#x2e;&#105;&#115;">&#x61;&#x6c;&#100;&#105;&#x6e;&#64;&#x61;&#x6c;&#x64;&#x69;&#x6e;&#x2e;&#105;&#x73;</a> – {{ _("Open 8 am to 9 pm every day") }}</p>
+          <p><em>{{ _("No reservations - Call for group reservations upstairs") }}</em></p>
+          <div class="like-button">
+            <iframe src="//www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.aldin.is%2F&amp;send=false&amp;layout=standard&amp;width=450&amp;show_faces=true&amp;action=recommend&amp;colorscheme=dark&amp;font&amp;height=80&amp;appId=277988345614501" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:450px; height:80px;" allowTransparency="true"></iframe>
+          </div>
+        </div>
       </footer>
 
     </div>
