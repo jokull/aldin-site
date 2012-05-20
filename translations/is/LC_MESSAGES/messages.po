@@ -3,12 +3,11 @@
 # This file is distributed under the same license as the PROJECT project.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2012.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2012-05-20 12:58+0000\n"
+"POT-Creation-Date: 2012-05-20 14:26+0000\n"
 "PO-Revision-Date: 2012-05-20 12:58+0000\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: is <LL@li.org>\n"
@@ -98,12 +97,14 @@ msgstr "Súrdeigsbrauð frá Sandholti"
 msgid ""
 "An award winning tea produces. Many varieties. Always from whole leaf, no"
 " dust."
-msgstr "Margverðlaunað te sem hlotið hefur ótal vottanir og verðlaun. Aðeins úr heilum laufum."
+msgstr ""
+"Margverðlaunað te sem hlotið hefur ótal vottanir og verðlaun. Aðeins úr "
+"heilum laufum."
 
 #: app/assets/index.html:143
 #, python-format
-msgid "10% student discount"
-msgstr "10% afsláttur fyrir námsmenn"
+msgid "10%% student discount"
+msgstr "10%% afsláttur fyrir námsmenn"
 
 #: app/assets/index.html:144
 msgid "Roomy loft with couches and electric plugs"
@@ -176,15 +177,16 @@ msgid ""
 "                  are proud to display her delicate treats at the "
 "counter.</p>\n"
 "                  "
-msgstr "
-"<p>Við bjóðum upp á heiðarlegan mat, gerðan úr ferskum hráefnum."
-"Hugmyndafræði okkar er ekki flókin og ber ekki framandi nöfn."
-"Við eldum einfaldlega matinn sem við myndum vilja borða og borga"
-"fyrir. Matur sem er hollur og spennandi, hentugur og á"
-"sanngjörnu verði.</p>"
-"<p>Við stefnum á hraða og fagmannlega þjónustu og bragðgóðan og"
-"fjölbreyttan mat. Sérinnflutt te, afbragðs kaffi, take-out á"
-"öllu því sem við bjóðum og síðast en ekki síst fallegt og"
+msgstr ""
+"\n"
+"<p>Við bjóðum upp á heiðarlegan mat, gerðan úr ferskum hráefnum.\n"
+"Hugmyndafræði okkar er ekki flókin og ber ekki framandi nöfn.\n"
+"Við eldum einfaldlega matinn sem við myndum vilja borða og borga\n"
+"fyrir. Matur sem er hollur og spennandi, hentugur og á\n"
+"sanngjörnu verði.</p>\n"
+"<p>Við stefnum á hraða og fagmannlega þjónustu og bragðgóðan og\n"
+"fjölbreyttan mat. Sérinnflutt te, afbragðs kaffi, take-out á\n"
+"öllu því sem við bjóðum og síðast en ekki síst fallegt og\n"
 "ómótstæðileg bakkelsi með kaffinu.</p>"
 
 #: app/assets/index.html:207
@@ -201,7 +203,9 @@ msgstr "Náttúruleg vín frá Ítalíu og Frakklandi, sérvalin af Frú Laugu"
 msgid ""
 "Our house wines are unusually high quality. They are from the Valdibella "
 "coop in Sicily and organic certified."
-msgstr "Vín hússins eru í óvenjulega háum gæðaflokki. Þau eru öll lífrænt vottuð frá Valdibella búgarðinum í Sikiley."
+msgstr ""
+"Vín hússins eru í óvenjulega háum gæðaflokki. Þau eru öll lífrænt vottuð "
+"frá Valdibella búgarðinum í Sikiley."
 
 #: app/assets/index.html:219 app/assets/index.html:229
 #: app/assets/index.html:239
@@ -238,3 +242,4 @@ msgstr "ljósmyndir teknar á staðnum"
 #: app/assets/index.html:294
 msgid "Fetching photos"
 msgstr "Sæki myndir"
+
