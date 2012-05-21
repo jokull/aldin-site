@@ -114,11 +114,23 @@ layout()
 //   .container
 //     layout()
 
-/* Handheld */
 
-// @media only screen and (max-width: 959px)
-//   .container
-//     width 460px + gutter-width
-//     .column, .columns
-//       width 440px
-//       float none
+// Handheld
+
+@media only screen and (max-width: 480px)
+  .container
+    width 480px
+    .one.column
+    .two.columns
+    .three.columns
+    .four.columns
+    .five.columns
+    .six.columns
+    .seven.columns
+    .eight.columns
+    .one-third.column
+      width 380px
+      .alpha
+        margin-left gutter-width * 0.5
+      .omega
+        margin-right gutter-width * 0.5
