@@ -14,7 +14,7 @@ each locale.
 ## 2. Install jinjet in a Python environment
 
     mkvirtualenv --distribute jinjet
-    pip install git@github.com/jokull/jinjet.git
+    pip install git+git://github.com/jokull/jinjet.git
 
 ## 3. Compile localized site trees
 
