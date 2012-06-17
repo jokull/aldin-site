@@ -67,6 +67,54 @@
         
             <section class="row">
               <div class="four columns">
+                <h2>{{ _("Lunch & Dinner") }}</h2>
+                <h6>{{ _("Salad selection, meat and local fish from 11:00 to 21:00") }}</h6>
+                <table class="menu">
+                  <col align="left">
+                  <col align="right">
+                  <tbody>
+                    <tr>
+                      <td align="left"><span>{{ _("3 salads") }}</span></td>
+                      <td align="right">1.590 kr</td>
+                    </tr>
+                    <tr>
+                      <td align="left"><span>{{ _("4 salads") }}</span></td>
+                      <td align="right">1.790 kr</td>
+                    </tr>
+                    <tr>
+                      <td align="left"><span>{{ _("2 salads + meat or fish") }}</span></td>
+                      <td align="right">1.890 kr</td>
+                    </tr>
+                    <tr>
+                      <td align="left"><span>{{ _("3 salads + meat or fish") }}</span></td>
+                      <td align="right">2.190 kr</td>
+                    </tr>
+                    <tr>
+                      <td align="left"><span>{{ _("Sourdough bread") }}</span></td>
+                      <td align="right">190 kr</td>
+                    </tr>
+                  </tbody>
+                </table>
+              
+                <div class="options">
+                  
+                  <h3>{{ _('Salad Picks') }}</h3>
+                  <ul class="salads">
+                    {% for item in [_("Grilled broccoli with garlic, chili and lemon"),
+                                    _("Sweet potatoes and coriander"),
+                                    _("Couscous, feta, mint and roast squash"),
+                                    _("Beetroot, blackberries and grapes"),
+                                    _("Aubergine with skyr, garlic and pomegranate seeds"),
+                                    _("Roasted carrots, feta, sage and olives"),
+                                    _("Fresh melon")] %}
+                    <li>{{ item }}</li>
+                    {% endfor %}
+                  </ul>
+                
+                  <h5>{{ _("Meat and Fish - Local and seasonal") }}</h5>
+            
+                </div>
+                
                 <h2>{{ _("Breakfast") }}</h2>
                 <h6>{{ _("Served from 8:00 to 11:00 all days") }}</h6>
                 <table class="menu">
@@ -103,34 +151,6 @@
                   </tr>
                   </tbody>
                 </table>
-                <h2>{{ _("Lunch & Dinner") }}</h2>
-                <h6>{{ _("Salad selection, meat and local fish from 11:00 to 21:00") }}</h6>
-                <table class="menu">
-                  <col align="left">
-                  <col align="right">
-                  <tbody>
-                    <tr>
-                      <td align="left"><span>{{ _("3 salads") }}</span></td>
-                      <td align="right">1.590 kr</td>
-                    </tr>
-                    <tr>
-                      <td align="left"><span>{{ _("4 salads") }}</span></td>
-                      <td align="right">1.790 kr</td>
-                    </tr>
-                    <tr>
-                      <td align="left"><span>{{ _("2 salads + meat or fish") }}</span></td>
-                      <td align="right">1.890 kr</td>
-                    </tr>
-                    <tr>
-                      <td align="left"><span>{{ _("3 salads + meat or fish") }}</span></td>
-                      <td align="right">2.190 kr</td>
-                    </tr>
-                    <tr>
-                      <td align="left"><span>{{ _("Sourdough bread") }}</span></td>
-                      <td align="right">190 kr</td>
-                    </tr>
-                  </tbody>
-                </table>
             
                 <h2><img src="/images/teapigs.png"></h2>
                 {{ _("An award winning tea produces. Many varieties. Always from whole leaf, no dust.") }}
@@ -145,11 +165,6 @@
                     <li>{{ _("Organic wines at a fair price") }}</li>
                     <li>{{ _("Historic setting by Lækjartorg") }}</li>
                   </ul>
-                  <div class="photos">
-                    <img src="/photos/people_1.jpg" class="two columns alpha">
-                    <img src="/photos/food_2.jpg" class="two columns omega">
-                    <div class="clear"></div>
-                  </div>
                 </section>
                 
               </div>
@@ -169,9 +184,9 @@
                   <h2>{{ _("Coffee & Tea") }}</h2>
                   <p>{{ _("We make great italian style coffee. All drinks are double shot.") }}</p>
                   <ul>
-                    <li>{{ _("Americano, espresso, tea") }}: 390 kr</li>
-                    <li>{{ _("Cappuccino, flat white") }}: 460 kr</li>
-                    <li>{{ _("French press") }}: 560 kr</li>
+                    <li>{{ _("Americano, Espresso, Tea") }}: 390 kr</li>
+                    <li>{{ _("Cappuccino, Swiss Mocca") }}: 460 kr</li>
+                    <li>{{ _("French Press") }}: 560 kr</li>
                     <li>{{ _("Croissant") }}: 290 kr</li>
                   </ul>
                   <img src="/images/loyalty-card.png" class="loyalty" alt="{{ _("Loyalty cards") }}">

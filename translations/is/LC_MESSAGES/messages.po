@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2012-05-21 08:44+0000\n"
+"POT-Creation-Date: 2012-06-17 23:08+0000\n"
 "PO-Revision-Date: 2012-05-20 12:58+0000\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: is <LL@li.org>\n"
@@ -23,79 +23,115 @@ msgid ""
 "house in downtown Reykjavík."
 msgstr "Salatúrval, kaffi og takeout í fallegu sögulegu húsi við Lækjartorg"
 
-#: app/assets/index.html:51
+#: app/assets/index.html:52
 msgid "Frontpage"
 msgstr "Forsíða"
 
-#: app/assets/index.html:52
+#: app/assets/index.html:53
 msgid "Breakfast - Coffee - Lunch - Dinner"
 msgstr "Morgunverður – Kaffi – Hádegis- og kvöldmatur"
 
-#: app/assets/index.html:69
-msgid "Breakfast"
-msgstr "Morgunverður"
-
 #: app/assets/index.html:70
-msgid "Served from 8:00 to 11:00 all days"
-msgstr "Frá 8:00 til 11:00 á morgnana"
-
-#: app/assets/index.html:76
-msgid "Icelandic Skyr with coconut milk and fruit"
-msgstr "Íslenskt skyr með kókósmjólk"
-
-#: app/assets/index.html:80
-msgid "Avocado yoghurt with almonds and berries"
-msgstr "Avokadojógúrt með möndlum og berjum"
-
-#: app/assets/index.html:84
-msgid "Soft boiled egg, bacon and sourdough bread"
-msgstr "Linsoðið egg, beikon og súrdeigsbrauð"
-
-#: app/assets/index.html:88
-msgid "Porridge with natural honey"
-msgstr "Hafragrautur með náttúrulegu hunangi"
-
-#: app/assets/index.html:92
-msgid "Bread with jams and our own cheese spread"
-msgstr "Brauð með sultum og heimagerðum smurosti"
-
-#: app/assets/index.html:96 app/assets/index.html:174
-msgid "Croissant"
-msgstr "Croissant (horn)"
-
-#: app/assets/index.html:100
-msgid "Soft boiled egg"
-msgstr "Linsoðið egg"
-
-#: app/assets/index.html:105
 msgid "Lunch & Dinner"
 msgstr "Hádegis- og kvöldmatur"
 
-#: app/assets/index.html:106
+#: app/assets/index.html:71
 msgid "Salad selection, meat and local fish from 11:00 to 21:00"
 msgstr "Salatúrval, kjöt og fiskur frá 11:00 til 21:00"
 
-#: app/assets/index.html:112
+#: app/assets/index.html:77
 msgid "3 salads"
 msgstr "3 salöt"
 
-#: app/assets/index.html:116
+#: app/assets/index.html:81
 msgid "4 salads"
 msgstr "4 salöt"
 
-#: app/assets/index.html:120
+#: app/assets/index.html:85
 msgid "2 salads + meat or fish"
 msgstr "2 salöt + kjöt/fiskur"
 
-#: app/assets/index.html:124
+#: app/assets/index.html:89
 msgid "3 salads + meat or fish"
 msgstr "3 salöt + kjöt/fiskur"
 
-#: app/assets/index.html:128
+#: app/assets/index.html:93
 msgid "Sourdough bread"
 msgstr "Súrdeigsbrauð frá Sandholti"
 
-#: app/assets/index.html:135
+#: app/assets/index.html:101
+msgid "Salad Picks"
+msgstr "Salatúrval"
+
+#: app/assets/index.html:103
+msgid "Grilled broccoli with garlic, chili and lemon"
+msgstr "Grillað brokkóli med hvítlauk, chilli og sítrónu"
+
+#: app/assets/index.html:104
+msgid "Sweet potatoes and coriander"
+msgstr "Sætar kartöflur með kóríander"
+
+#: app/assets/index.html:105
+msgid "Couscous, feta, mint and roast squash"
+msgstr "Kúskús med feta, myntu og graskeri"
+
+#: app/assets/index.html:106
+msgid "Beetroot, blackberries and grapes"
+msgstr "Rauðrófur með brómberjum og vínberjum"
+
+#: app/assets/index.html:107
+msgid "Aubergine with skyr, garlic and pomegranate seeds"
+msgstr "Eggaldin med íslensku skyri, hvítlauk og graníteplum"
+
+#: app/assets/index.html:108
+msgid "Roasted carrots, feta, sage and olives"
+msgstr "Grillaðar gulrætur med fetaosti, salvíu og olífum"
+
+#: app/assets/index.html:109
+msgid "Fresh melon"
+msgstr "Ferskt melónusalat"
+
+#: app/assets/index.html:114
+msgid "Meat and Fish - Local and seasonal"
+msgstr "Kjöt og fiskur - það ferskasta og besta hverju sinni"
+
+#: app/assets/index.html:118
+msgid "Breakfast"
+msgstr "Morgunverður"
+
+#: app/assets/index.html:119
+msgid "Served from 8:00 to 11:00 all days"
+msgstr "Frá 8:00 til 11:00 á morgnana"
+
+#: app/assets/index.html:125
+msgid "Icelandic Skyr with coconut milk and fruit"
+msgstr "Íslenskt skyr með kókósmjólk"
+
+#: app/assets/index.html:129
+msgid "Avocado yoghurt with almonds and berries"
+msgstr "Avokadojógúrt með möndlum og berjum"
+
+#: app/assets/index.html:133
+msgid "Soft boiled egg, bacon and sourdough bread"
+msgstr "Linsoðið egg, beikon og súrdeigsbrauð"
+
+#: app/assets/index.html:137
+msgid "Porridge with natural honey"
+msgstr "Hafragrautur með náttúrulegu hunangi"
+
+#: app/assets/index.html:141
+msgid "Bread with jams and our own cheese spread"
+msgstr "Brauð með sultum og heimagerðum smurosti"
+
+#: app/assets/index.html:145 app/assets/index.html:190
+msgid "Croissant"
+msgstr "Croissant (horn)"
+
+#: app/assets/index.html:149
+msgid "Soft boiled egg"
+msgstr "Linsoðið egg"
+
+#: app/assets/index.html:156
 msgid ""
 "An award winning tea produces. Many varieties. Always from whole leaf, no"
 " dust."
@@ -103,64 +139,64 @@ msgstr ""
 "Margverðlaunað te sem hlotið hefur ótal vottanir og verðlaun. Aðeins úr "
 "heilum laufum."
 
-#: app/assets/index.html:141
+#: app/assets/index.html:162
 #, python-format
 msgid "10%% student discount"
 msgstr "10%% afsláttur fyrir námsmenn"
 
-#: app/assets/index.html:142
+#: app/assets/index.html:163
 msgid "Roomy loft with couches and electric plugs"
 msgstr "Rúmgóð efri hæð fyrir fartölvufólk"
 
-#: app/assets/index.html:143
+#: app/assets/index.html:164
 msgid "Outside seating when weather allows"
 msgstr "Útisæti á góðviðrisdögum"
 
-#: app/assets/index.html:144
+#: app/assets/index.html:165
 msgid "Organic wines at a fair price"
 msgstr "Lífræn vín á hagstæðu verði"
 
-#: app/assets/index.html:145
+#: app/assets/index.html:166
 msgid "Historic setting by Lækjartorg"
 msgstr "Sögulegt hús við Lækjartorg"
 
-#: app/assets/index.html:160 app/assets/index.html:282
+#: app/assets/index.html:176 app/assets/index.html:298
 msgid "Open 8 am to 9 pm every day"
 msgstr "Opið 8 - 21 alla daga"
 
-#: app/assets/index.html:168
+#: app/assets/index.html:184
 msgid "Coffee & Tea"
 msgstr "Kaffi og te"
 
-#: app/assets/index.html:169
+#: app/assets/index.html:185
 msgid "We make great italian style coffee. All drinks are double shot."
 msgstr "Allir kaffidrykkir eru tvöfaldir hjá okkur og te eru bara úr heilum laufum"
 
-#: app/assets/index.html:171
-msgid "Americano, espresso, tea"
-msgstr "Americano, espresso, te"
+#: app/assets/index.html:187
+msgid "Americano, Espresso, Tea"
+msgstr "Americano, Espresso, Te"
 
-#: app/assets/index.html:172
-msgid "Cappuccino, flat white"
-msgstr ""
+#: app/assets/index.html:188
+msgid "Cappuccino, Swiss Mocca"
+msgstr "Cappuccino, Sviss Mokka"
 
-#: app/assets/index.html:173
-msgid "French press"
-msgstr "Pressukanna (french press)"
+#: app/assets/index.html:189
+msgid "French Press"
+msgstr "Pressukanna (French Press)"
 
-#: app/assets/index.html:176 app/assets/index.html:177
+#: app/assets/index.html:192 app/assets/index.html:193
 msgid "Loyalty cards"
 msgstr "Klippikort"
 
-#: app/assets/index.html:177
+#: app/assets/index.html:193
 msgid "10th cup is <strong>free</strong>"
 msgstr "Tíundi bollinn <strong>gratis</strong>"
 
-#: app/assets/index.html:182
+#: app/assets/index.html:198
 msgid "Real food without compromise"
 msgstr "Matur án málamiðlana"
 
-#: app/assets/index.html:183
+#: app/assets/index.html:199
 msgid ""
 "\n"
 "                  <p>We offer honest food, made from fresh ingredients. \n"
@@ -190,17 +226,17 @@ msgstr ""
 "öllu því sem við bjóðum og síðast en ekki síst fallegt og\n"
 "ómótstæðileg bakkelsi með kaffinu sem Kristín kokkur bakar sjálf.</p>"
 
-#: app/assets/index.html:205
+#: app/assets/index.html:221
 msgid "Wines"
 msgstr "Vínlisti"
 
-#: app/assets/index.html:207
+#: app/assets/index.html:223
 msgid ""
 "Natural wines from Italy and France, picked by specialty importer Frú "
 "Lauga"
 msgstr "Náttúruleg vín frá Ítalíu og Frakklandi, sérvalin af Frú Laugu"
 
-#: app/assets/index.html:209
+#: app/assets/index.html:225
 msgid ""
 "Our house wines are unusually high quality. They are from the Valdibella "
 "coop in Sicily and organic certified."
@@ -208,41 +244,38 @@ msgstr ""
 "Vín hússins eru í óvenjulega háum gæðaflokki. Þau eru öll lífrænt vottuð "
 "frá Valdibella búgarðinum í Sikiliey."
 
-#: app/assets/index.html:217 app/assets/index.html:227
-#: app/assets/index.html:237
+#: app/assets/index.html:233 app/assets/index.html:243
+#: app/assets/index.html:253
 msgid "Glass"
 msgstr "Glas"
 
-#: app/assets/index.html:218 app/assets/index.html:219
-#: app/assets/index.html:228 app/assets/index.html:229
-#: app/assets/index.html:238 app/assets/index.html:239
+#: app/assets/index.html:234 app/assets/index.html:235
+#: app/assets/index.html:244 app/assets/index.html:245
+#: app/assets/index.html:254 app/assets/index.html:255
 msgid "Bottle"
 msgstr "Flaska"
 
-#: app/assets/index.html:244
+#: app/assets/index.html:260
 msgid "and more at reasonable prices"
 msgstr "o.fl. á sanngjörnu verði"
 
-#: app/assets/index.html:247
+#: app/assets/index.html:263
 msgid "In partnership with"
 msgstr "Í samstarfi við"
 
-#: app/assets/index.html:265
+#: app/assets/index.html:281
 msgid "More pics on our Facebook page"
 msgstr "Fleiri myndir á Facebook síðunni okkar"
 
-#: app/assets/index.html:283
+#: app/assets/index.html:299
 msgid "No reservations - Call for group reservations upstairs"
 msgstr "Engar borðapantanir – Hafið samband fyrir hópapantanir"
 
-#: app/assets/index.html:295
+#: app/assets/index.html:311
 msgid "Photos taken at our location"
 msgstr "ljósmyndir teknar á staðnum"
 
-#: app/assets/index.html:297
+#: app/assets/index.html:313
 msgid "Fetching photos"
 msgstr "Sæki myndir"
-
-#~ msgid "Fruit compote, granola and yoghurt"
-#~ msgstr "Ofnbakaðir ávextir, granola og jógúrt"
 
