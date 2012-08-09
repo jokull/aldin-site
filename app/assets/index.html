@@ -134,6 +134,10 @@
                     <td align="right">980 kr</td>
                   </tr>
                   <tr>
+                    <td align="left"><span>{{ _("Egg, smoked salmon, chives and cream cheese") }}</span></td>
+                    <td align="right">980 kr</td>
+                  </tr>
+                  <tr>
                     <td align="left"><span>{{ _("Porridge with natural honey") }}</span></td>
                     <td align="right">590 kr</td>
                   </tr>
@@ -196,17 +200,16 @@
                 <div class="clear"></div>
                 <section class="ideo">
                   <h2>{{ _("Real food without compromise") }}</h2>
-                  {% trans %}
-                  <p>We offer honest food, made from fresh ingredients.
-                  Our ideology does not carry strange names. We simply cook
-                  the food we wish to eat ourselves. Food that is nutritious,
-                  exciting, convenient and fairly priced.</p>
-
-                  <p>Our service is quick and professional. We import great tea,
-                  and have trained our staff to make the best cups of coffee in
-                  town. Our chef makes great pastry and we are proud to display
-                  her delicate treats at the counter.</p>
-                  {% endtrans %}
+                  {% trans -%}
+<p>We offer honest food, made from fresh ingredients.
+Our ideology does not carry strange names. We simply cook
+the food we wish to eat ourselves. Food that is nutritious,
+exciting, convenient and fairly priced.</p>
+<p>Our service is quick and professional. We import great tea,
+and have trained our staff to make the best cups of coffee in
+town. Our chef makes great pastry and we are proud to display
+her delicate treats at the counter.</p>
+                  {%- endtrans %}
                 </section>
               </div>
             </section>
